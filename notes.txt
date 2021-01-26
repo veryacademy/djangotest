@@ -1,0 +1,15 @@
+GitHub Actions help you automate tasks 
+software development life cycle 
+
+GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred 
+
+The workflow is an automated procedure that you add to your repository. 
+Workflows are made up of one or more jobs and can be scheduled or triggered by an event. 
+The workflow can be used to build, test, package, release, or deploy a project on GitHub.
+
+An event is a specific activity that triggers a workflow. 
+
+A job is a set of steps that execute on the same runner.
+
+https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
+
