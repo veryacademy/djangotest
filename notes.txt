@@ -13,3 +13,9 @@ A job is a set of steps that execute on the same runner.
 
 https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions
 
+
+
+What is a runner?
+The runner is the application that runs a job from a GitHub Actions workflow. 
+It is used by GitHub Actions in the hosted virtual environments, or you can self-host the runner in your own environment.
+
