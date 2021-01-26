@@ -1,15 +1,22 @@
 1. Make new GitHut Repository & configure VSC
 
 git config --list
+
+git config user.name "veryacademy"
+git config user.email "veryacademymail@gmail.com"
 git config --global user.name "veryacademy"
 git config --global user.email "veryacademymail@gmail.com"
 git config user.name
 git help config
-
 
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/veryacademy/djangotest.git
+or git remote set-url origin https://github.com/veryacademy/djangotest.git
+git config --get remote.origin.url
+
+
+
 git push -u origin main
